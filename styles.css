@@ -1,0 +1,23 @@
+.espaço{
+  float: left;
+  width: 150px;
+  height: 200px;
+  margin: 10px;
+  padding: 10px;
+  border: 2px solid black;
+  align-items: center;
+
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+height: 800px;
+  border: 1px solid black;
+}
+.shadow {filter: drop-shadow(8px 8px 10px green);}
+
+body {  
+  background-image: url(./imagens/fundo.png), linear-gradient(45deg, rgb(244, 130, 200), rgb(152, 221, 3),white);
+  background-blend-mode: multiply;
+}
